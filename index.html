@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <!--=============== METADATA ===============-->
+  <title>Paws - Pet Shop</title>
+  <meta name="title" content="Paws - Pet Shop">
+  <meta name="description" content="Pet Shop made with love">
+  
+  <!--=============== FAVICON ===============-->
+  <link rel="shortcut icon" href="assets/images/logo.png" type="image/svg+xml">
+
+  <!--=============== FONTS ===============-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/fonts/font.css">
+
+  <!--=============== STYLESHEET ===============-->
+  <link rel="stylesheet" href="./assets/css/styles.css">
+
+<!--=============== PRELOAD IMG ===============-->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jfif">
+
+</head>
+
+<body>
+
+ <!--=============== HEADER ===============-->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.png" width="132" height="27" alt="home">
+      </a>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#" class="navbar-link">Home</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Accessories</a>
+          </li>
+
+          <li>
+            <a href="#" class="navbar-link">Shop</a>
+          </li>
+
+        </ul>
+
+        <button class="cart-btn">
+          <ion-icon name="bag" aria-hidden="true"></ion-icon>
+
+          <span class="span">Cart</span>
+        </button>
+
+        <a href="#" class="btn">Contact Us</a>
+      </nav>
+
+      <button class="nav-open-btn" aria-label="toggle menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!--=============== HERO ===============-->
+
+      <div class="hero">
+        <div class="container">
+
+          <div class="hero-content">
+            <h1 class="h1 hero-title title">Your Pet’s<br> Favorite Place!</h1>
+
+            <p class="hero-text">
+                Find everything your pet needs with our top-quality products and services. From food and toys to grooming, we ensure your furry friends are happy and healthy.
+            </p>
+
+            <a href="#" class="btn btn-primary">
+              <span class="span">Shop Now</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+          <div class="hero-banner">
+            <figure class="img-holder" style="--width: 704; --height: 700;">
+              <img src="./assets/images/hero-banner.jfif" width="704" height="700" alt="hero banner" class="img-cover">
+            </figure>
+
+            <img src="./assets/images/hero-shape-1.png" width="255" height="249" alt="shape" class="shape shape-1">
+          </div>
+
+          <img src="./assets/images/hero-shape-2.png" width="360" height="133" alt="shape" class="shape shape-2">
+
+        </div>
+      </div>
+
+
+
+
+
+      <!--=============== PRODUCT ===============-->
+
+      <section class="section product" aria-label="product">
+        <div class="container">
+
+          <h2 class="h2 section-title title text-center">What’s New in Store</h2>
+
+          <ul class="product-list has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="product-card text-center">
+
+                <div class="card-banner">
+
+                  <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
+                    <img src="./assets/images/product-1.jfif" width="448" height="470" loading="lazy"
+                      alt="pet bed" class="img-cover">
+                  </figure>
+
+                  <a href="#" class="btn product-btn">
+                    <ion-icon name="bag" aria-hidden="true"></ion-icon>
+
+                    <span class="span">Add To Cart</span>
+                  </a>
+
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h4 title">
+                    <a href="#" class="card-title">Wool Pet Bed
+                    </a>
+                  </h3>
+
+                  <span class="price">₹5000</span>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="product-card text-center">
+
+                <div class="card-banner">
+
+                  <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
+                    <img src="./assets/images/product-2.jfif" width="448" height="470" loading="lazy"
+                      alt="stuffed toy" class="img-cover">
+                  </figure>
+
+                  <a href="#" class="btn product-btn">
+                    <ion-icon name="bag" aria-hidden="true"></ion-icon>
+
+                    <span class="span">Add To Cart</span>
+                  </a>
+
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h4 title">
+                    <a href="#" class="card-title">Stuffed Toy</a>
+                  </h3>
+
+                  <span class="price">₹900</span>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="product-card text-center">
+
+                <div class="card-banner">
+
+                  <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
+                    <img src="./assets/images/product-3.jfif" width="448" height="470" loading="lazy"
+                      alt="org hoodie" class="img-cover">
+                  </figure>
+
+                  <a href="#" class="btn product-btn">
+                    <ion-icon name="bag" aria-hidden="true"></ion-icon>
+
+                    <span class="span">Add To Cart</span>
+                  </a>
+
+                </div>
+
+                <div class="card-content">
+
+                  <h3 class="h4 title">
+                    <a href="#" class="card-title">Small Orange Hoodie</a>
+                  </h3>
+
+                  <span class="price">₹1300</span>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+      <!--=============== FEATURES ===============-->
+
+      <section class="section feature" aria-label="feature-label">
+        <div class="container">
+
+          <h2 class="h2 section-title title text-center" id="feature-label">Featured products</h2>
+
+          <ul class="feature-list">
+
+            <li>
+              <div class="product-card text-center">
+
+                <div class="card-banner">
+
+                  <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
+                    <img src="./assets/images/product-4.jpg" width="448" height="470" loading="lazy"
+                      alt="whiskas cat food" class="img-cover">
+                  </figure>
+
+                  <a href="#" class="btn product-btn">
+                    <ion-icon name="bag" aria-hidden="true"></ion-icon>
+
+                    <span class="span">Add To Cart</span>
+                  </a>
+
+                </div>
+
+                <div class="card-content">
+                  <h3 class="h3 title">
+                    <a href="#" class="card-title">Whiskas Cat Food</a>
+                  </h3>
+
+                  <span class="price">₹1008</span>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card text-center">
+
+                <div class="card-banner">
+
+                  <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
+                    <img src="./assets/images/product-5.jfif" width="448" height="470" loading="lazy"
+                      alt="naturvet calcium" class="img-cover">
+                  </figure>
+
+                  <a href="#" class="btn product-btn">
+                    <ion-icon name="bag" aria-hidden="true"></ion-icon>
+
+                    <span class="span">Add To Cart</span>
+                  </a>
+
+                </div>
+
+                <div class="card-content">
+                  <h3 class="h3 title">
+                    <a href="#" class="card-title">NaturVet Calcium for Dogs</a>
+                  </h3>
+
+                  <span class="price">₹399</span>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card text-center">
+
+                <div class="card-banner">
+
+                  <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
+                    <img src="./assets/images/product-6.jfif" width="448" height="470" loading="lazy"
+                      alt="dog puzzle" class="img-cover">
+                  </figure>
+
+                  <a href="#" class="btn product-btn">
+                    <ion-icon name="bag" aria-hidden="true"></ion-icon>
+
+                    <span class="span">Add To Cart</span>
+                  </a>
+
+                </div>
+
+                <div class="card-content">
+                  <h3 class="h3 title">
+                    <a href="#" class="card-title">XIGOU Dog Puzzle</a>
+                  </h3>
+
+                  <span class="price">₹370</span>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card text-center">
+
+                <div class="card-banner">
+
+                  <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
+                    <img src="./assets/images/product-7.jfif" width="448" height="470" loading="lazy"
+                      alt="Smartcat bagpack" class="img-cover">
+                  </figure>
+
+                  <a href="#" class="btn product-btn">
+                    <ion-icon name="bag" aria-hidden="true"></ion-icon>
+
+                    <span class="span">Add To Cart</span>
+                  </a>
+
+                </div>
+
+                <div class="card-content">
+                  <h3 class="h3 title">
+                    <a href="#" class="card-title">SmartCat Bagpack</a>
+                  </h3>
+
+                  <span class="price">₹1800</span>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card text-center">
+
+                <div class="card-banner">
+
+                  <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
+                    <img src="./assets/images/product-8.jfif" width="448" height="470" loading="lazy"
+                      alt="milk bone puffs" class="img-cover">
+                  </figure>
+
+                  <a href="#" class="btn product-btn">
+                    <ion-icon name="bag" aria-hidden="true"></ion-icon>
+
+                    <span class="span">Add To Cart</span>
+                  </a>
+
+                </div>
+
+                <div class="card-content">
+                  <h3 class="h3 title">
+                    <a href="#" class="card-title">Milk Bone Puffs</a>
+                  </h3>
+
+                  <span class="price">₹370</span>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card text-center">
+
+                <div class="card-banner">
+
+                  <figure class="product-banner img-holder" style="--width: 448; --height: 470;">
+                    <img src="./assets/images/product-9.jfif" width="448" height="470" loading="lazy" alt="cat cage"
+                      class="img-cover">
+                  </figure>
+
+                  <a href="#" class="btn product-btn">
+                    <ion-icon name="bag" aria-hidden="true"></ion-icon>
+
+                    <span class="span">Add To Cart</span>
+                  </a>
+
+                </div>
+
+                <div class="card-content">
+                  <h3 class="h3 title">
+                    <a href="#" class="card-title">Cat Cage</a>
+                  </h3>
+
+                  <span class="price">₹1299</span>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn btn-secondary">View All Products</a>
+
+        </div>
+      </section>
+
+
+
+     <!--=============== OFFER ===============-->
+
+      <section class="offer has-bg-image" style="background-image: url('./assets/images/offer.jfif')">
+        <div class="container">
+
+          <div class="offer-card">
+
+            <h2 class="title card-title">25% Off</h2>
+
+            <p class="card-text">
+              Our expertise and genuine love for pets enable us to provide specialized products and personalized care, ensuring the best for your furry friends.
+            </p>
+
+            <a href="#" class="btn btn-secondary">
+              <span class="span">Shop Now</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+ <!--=============== FOOTER ===============-->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.png" width="132" height="27" loading="lazy" alt="home">
+          </a>
+
+          <p class="footer-text">
+            Our expertise and genuine love for pets enable us to provide specialized products and personalized care, ensuring the best for your furry friends.
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title title">Contact info</p>
+          </li>
+
+          <li>
+            <a href="mailto:paws@support.com" class="email">paws@support.com</a>
+          </li>
+
+          <li>
+            <a href="tel:+911234567890" class="call">+91 123456890</a>
+          </li>
+
+        </ul>
+
+        <div class="footer-list">
+
+          <p class="footer-list-title title">Subscribe newsletter</p>
+
+          <input type="email" name="email_address" placeholder="Enter your email address" required autocomplete="off"
+            class="input-field">
+
+          <button class="btn btn-secondary">Subscribe</button>
+
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <div class="wrapper">
+          <div class="link-wrapper">
+
+            <a href="#" class="footer-bottom-link">Accessories</a>
+            <a href="#" class="footer-bottom-link">Our Team</a>
+            <a href="#" class="footer-bottom-link">Services</a>
+            <a href="#" class="footer-bottom-link">Contact Us</a>
+
+          </div>
+
+          <div class="link-wrapper">
+            <a href="#" class="footer-bottom-link">Terms & Conditions</a>
+
+            <a href="#" class="footer-bottom-link">Privacy Policy</a>
+          </div>
+        </div>
+
+        <p class="copyright">
+          &copy; 2024 HarsheedRabhadia.
+        </p>
+
+      </div>
+
+      <img src="./assets/images/footer-shape-1.png" width="245" height="165" loading="lazy" alt="shape"
+        class="shape shape-1">
+
+      <img src="./assets/images/footer-shape-2.png" width="138" height="316" loading="lazy" alt="shape"
+        class="shape shape-2">
+
+      <img src="./assets/images/footer-shape-3.png" width="346" height="92" loading="lazy" alt="shape"
+        class="shape shape-3">
+
+    </div>
+  </footer>
+
+
+ <!--=============== JAVASCRIPT ===============-->
+  <script src="./assets/js/main.js"></script>
+
+<!--=============== ICONS ===============-->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
